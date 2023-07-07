@@ -1,0 +1,116 @@
+/* Main colour scheme*/
+
+body{
+  background-color: #ffeee6;
+}
+
+
+
+
+
+
+/* Menu  sytle*/
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #FFAC81;
+  }
+  
+  .menu li {
+    display: inline-block;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: hsl(0, 0%, 20%);
+  }
+  
+  .menu li a:hover {
+    background-color: #df584f;
+    color: whitesmoke;
+    
+  }
+  
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+/*Index Page*/
+
+.containerin {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #CDEAC0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  flex: 1;
+}
+
+.description {
+  flex: 1;
+  padding-left: 10px;
+}
+
+
+
+
+
+/* For Contact Page */
+
+  .content{
+    flex: 1;
+    padding-left: 25px;
+
+  }
+
+
+
+  .description {
+    flex: 1;
+    padding-left: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+
+  
+
+  #dp{
+    border: 5px solid #ffae89 ;
+    border-radius: 5px;
+    border-radius: 5%;
+  }
+    
