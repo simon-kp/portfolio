@@ -1,8 +1,21 @@
+/* Main colour scheme*/
+
+body{
+  background-color: #ffeee6;
+}
+
+
+
+
+
+
+/* Menu  sytle*/
+
 .menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #f1f1f1;
+    background-color: #FFAC81;
   }
   
   .menu li {
@@ -13,12 +26,13 @@
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: #333;
+    color: hsl(0, 0%, 20%);
   }
   
   .menu li a:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: #df584f;
+    color: whitesmoke;
+    
   }
   
   .center {
@@ -27,16 +41,44 @@
   }
 
 
+/*Index Page*/
+
+.containerin {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #CDEAC0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  flex: 1;
+}
+
+.description {
+  flex: 1;
+  padding-left: 10px;
+}
+
+
+
+
 
 /* For Contact Page */
 
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f5f5f5;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  .content{
+    flex: 1;
+    padding-left: 25px;
+
+  }
+
+
+
+  .description {
+    flex: 1;
+    padding-left: 10px;
   }
   
   h1 {
@@ -61,5 +103,14 @@
   a {
     text-decoration: none;
     color: #007bff;
+  }
+
+
+  
+
+  #dp{
+    border: 5px solid #ffae89 ;
+    border-radius: 5px;
+    border-radius: 5%;
   }
     
